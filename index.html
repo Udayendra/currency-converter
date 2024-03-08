@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">MyCurrencyConverter</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="converter">
+        <div class="container">
+            <h2 class="heading">Currency Converter</h2>
+            <div class="rate">
+                <div class="rate1"></div>
+                <div class="rate2"></div>
+            </div>
+            <div class="main">
+                <div class="initial">
+                    <div class="options">
+                        <select name="" id="">
+                            <option value="us">us</option>
+                            <option value="inr">inr</option>
+                        </select>
+                    </div>
+                    <div class="input"><input type="number"></div>
+                </div>
+                <span class="swap">&#8594;</span>
+                <div class="target">
+                    <div class="options">
+                        <select name="" id="">
+                            <option value="us">us</option>
+                            <option value="inr">inr</option>
+                        </select>
+                    </div>
+                    <div class="input"><input disabled type="number"></div>
+                </div>
+            </div>
+            <button class="result">Change Rate</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Copyright &copy; All rights reserved</p>
+    </footer>
+
+    <script src="currency_converter.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
